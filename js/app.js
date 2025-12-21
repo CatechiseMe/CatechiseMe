@@ -38,6 +38,15 @@ document.addEventListener("DOMContentLoaded", () => {
           </p>
           <p><em>Soli Deo Gloria</em></p>
 
+          <div class="install-instructions">
+           <h4>Install This App</h4>
+           <p>
+            <strong>Android:</strong> Tap the ⋮ menu in Chrome and select "Add to Home screen".<br>
+            <strong>iPhone:</strong> Tap the Share button in Safari and choose "Add to Home Screen".
+           </p>
+           <p>This allows you to access CatechiseMe like a regular app!</p>
+          </div>
+
           <div class="support-section">
             <h3>Support CatechiseMe</h3>
             <p>
