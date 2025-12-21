@@ -1,0 +1,253 @@
+:root {
+    --primary-color: #1e293b;     /* Deep slate for header and accents */
+    --secondary-color: #3b82f6;   /* Modern blue for highlights */
+    --background-color: #f8fafc; /* Light, clean background */
+    --surface-color: #ffffff;     /* Card and content surfaces */
+    --text-color: #1e293b;        /* Rich dark text */
+    --text-muted: #64748b;        /* Subtle muted text */
+    --border-color: #e2e8f0;      /* Soft borders */
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
+    --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+    --radius: 0.75rem;            /* Modern rounded corners */
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    box-shadow: var(--shadow-md);
+}
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+main {
+    flex-grow: 1;
+    padding: 1.5rem;
+    overflow-y: auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--surface-color);
+    border-top: 1px solid var(--border-color);
+    padding: 0.75rem 0;
+    position: sticky;
+    bottom: 0;
+    box-shadow: var(--shadow-sm);
+}
+nav button {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: 0.75rem 1rem;
+    transition: color 0.2s ease;
+    font-weight: 500;
+}
+nav button.active {
+    color: var(--secondary-color);
+    position: relative;
+}
+nav button.active::after {
+    content: '';
+    position: absolute;
+    bottom: -0.75rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2rem;
+    height: 3px;
+    background-color: var(--secondary-color);
+    border-radius: 2px;
+}
+.view {
+    display: none;
+}
+.view.active {
+    display: block;
+}
+.toc-list, .resources-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.toc-list li, .resources-list li {
+    background-color: var(--surface-color);
+    margin-bottom: 1rem;
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.toc-list li:hover, .resources-list li:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+}
+.toc-list li a, .resources-list a {
+    display: block;
+    padding: 1.25rem;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.2s ease;
+}
+.toc-list li a:hover, .resources-list a:hover {
+    background-color: #f1f5f9;
+}
+.catechism-content {
+    background-color: var(--surface-color);
+    border-radius: var(--radius);
+    padding: 1.5rem;
+    box-shadow: var(--shadow-sm);
+}
+.catechism-content h2 {
+    color: var(--primary-color);
+    margin-top: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.catechism-content .answer {
+    background-color: #eff6ff;
+    padding: 1.25rem;
+    border-radius: var(--radius);
+    border-left: 5px solid var(--secondary-color);
+    margin: 1.5rem 0;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+.catechism-content .scripture {
+    font-weight: 600;
+    color: var(--secondary-color);
+    margin: 1.5rem 0 0.5rem;
+    font-size: 1.05rem;
+}
+.catechism-content .other-scriptures {
+    color: var(--text-muted);
+    font-style: italic;
+    margin: 0.5rem 0 1.5rem;
+}
+.catechism-content .explanation {
+    margin-top: 1.5rem;
+    color: var(--text-color);
+}
+.explanation-divider {
+    margin: 2rem 0 1.5rem;
+    border: none;
+    border-top: 1px solid var(--border-color);
+}
+.expanded-explanation h4 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+.expanded-explanation p {
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}.expanded-explanation {
+    background-color: #f9fafb;
+    padding: 1rem;
+    border-left: 4px solid var(--secondary-color);
+    border-radius: 4px;
+}.welcome-content {
+    text-align: center;
+    padding: 3rem 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.welcome-content h2 {
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.back-button {
+    background: none;
+    border: none;
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 0.75rem 0;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.back-button::before {
+    content: '←';
+}
+.back-button:hover {
+    text-decoration: underline;
+}
+.resource-category {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 2rem 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid var(--secondary-color);
+}
+.resources-list {
+    margin-bottom: 2rem;
+}
+/* Mobile improvements */
+@media (max-width: 640px) {
+    main {
+        padding: 1rem;
+    }
+    
+    .catechism-content {
+        padding: 1.25rem;
+    }
+    
+    nav button {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+}
+.support-section {
+    margin-top: 2.5rem;
+    padding: 1.2rem;
+    background-color: #e8f6f3;
+    border-left: 4px solid var(--secondary-color);
+    border-radius: 6px;
+    text-align: center;
+}
+
+.support-section h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+#donate-btn {
+    margin-top: 0.8rem;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 0.7rem 1.4rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#donate-btn:hover {
+    background-color: #2980b9;
+}
+
+.scripture-notice {
+    margin-top: 3rem;
+    font-size: 0.75rem;
+    color: #666;
+    line-height: 1.4;
+    text-align: center;
+}
