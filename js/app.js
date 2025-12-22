@@ -222,11 +222,40 @@ document.addEventListener("DOMContentLoaded", () => {
   ========================== */
 
   if ("serviceWorker" in navigator) {
-    navigator.serviceWorker
-      .register("./service-worker.js")
-      .then(() => console.log("Service Worker registered"))
-      .catch(err =>
-        console.error("Service Worker registration failed:", err)
-      );
-  }
+  navigator.serviceWorker
+    .register("./service-worker.js")
+    .then(registration => {
+      console.log("Service Worker registered");
+
+      if (registration.waiting) {
+        showUpdateBanner(registration);
+      }
+
+      registration.addEventListener("updatefound", () => {
+        const newWorker = registration.installing;
+
+        newWorker.addEventListener("statechange", () => {
+          if (newWorker.state === "installed" &&
+              navigator.serviceWorker.controller) {
+            showUpdateBanner(registration);
+          }
+        });
+      });
+    })
+    .catch(err =>
+      console.error("Service Worker registration failed:", err)
+    );
+}
+
+function showUpdateBanner(registration) {
+  const banner = document.getElementById("update-banner");
+  const btn = document.getElementById("update-btn");
+
+  banner.style.display = "flex";
+
+  btn.onclick = () => {
+    registration.waiting.postMessage({ type: "SKIP_WAITING" });
+  };
+}navigator.serviceWorker.addEventListener("controllerchange", () => {
+  window.location.reload();
 });
