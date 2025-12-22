@@ -5,6 +5,7 @@ const ASSETS_TO_CACHE = [
   "/css/style.css",
   "/js/app.js",
   "/js/data.js",
+  "/resources/pdfs/catechism-printable.pdf",
   "/manifest.json",
   // add other files your app uses
 ];

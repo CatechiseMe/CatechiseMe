@@ -176,7 +176,11 @@ document.addEventListener("DOMContentLoaded", () => {
           ${grouped[category]
             .map(
               r =>
-                `<li><a href="${r.url}" target="_blank" rel="noopener noreferrer">${r.title}</a></li>`
+                `<li>
+                   <a href="${r.url}" target="_blank" rel="noopener noreferrer" onclick="window.open(this.href).print(); return false;">
+    📄              ${r.title}
+                   </a>
+                 </li>`
             )
             .join("")}
         </ul>

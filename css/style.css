@@ -251,3 +251,8 @@ nav button.active::after {
     line-height: 1.4;
     text-align: center;
 }
+
+.resources-list a::before {
+  content: "🖨️ ";
+  margin-right: 0.25rem;
+}
