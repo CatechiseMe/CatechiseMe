@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
           </div>
 
           ${
-            item.expandedExplanation
+            Array.isArray(item.expandedExplanation)
               ? `
             <div class="expanded-explanation">
               <hr class="explanation-divider">
@@ -174,4 +174,42 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
   renderWelcomeView();
+});
+// ===== Service Worker Registration =====
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./service-worker.js')
+    .then(registration => {
+      console.log('Service Worker registered');
+
+      // Show update banner if there's a waiting service worker
+      if (registration.waiting) showUpdateBanner(registration);
+
+      // Listen for new SW installation
+      registration.addEventListener('updatefound', () => {
+        const newWorker = registration.installing;
+        newWorker.addEventListener('statechange', () => {
+          if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+            showUpdateBanner(registration);
+          }
+        });
+      });
+    })
+    .catch(err => console.error('Service Worker registration failed:', err));
+}
+
+// Show update banner function
+function showUpdateBanner(registration) {
+  const banner = document.getElementById('update-banner');
+  const btn = document.getElementById('update-btn');
+
+  banner.style.display = 'flex';
+
+  btn.onclick = () => {
+    registration.waiting.postMessage({ type: 'SKIP_WAITING' });
+  };
+}
+
+// Reload page when SW takes control
+navigator.serviceWorker.addEventListener('controllerchange', () => {
+  window.location.reload();
 });

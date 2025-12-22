@@ -1045,6 +1045,7 @@ This work reflects the Spirit's role in the triune economy of salvation: proceed
 
 // Resources
 export const resources = [
+  { category: "PDFs", title: "Printable Catechism (PDF)", url: "./resources/pdfs/catechism-printable.pdf" },
   { category: "Ministries", title: "Disciple The Nations", url: "https://disciplethenations.org/" },
   { category: "Ministries", title: "DTN Church Network", url: "https://www.dtnchurchnetwork.org/" },
   { category: "Ministries", title: "Winnie Kate's Kids", url: "https://disciplethenations.org/winnie-kates-kids/" },
