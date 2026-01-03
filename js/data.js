@@ -716,7 +716,7 @@ This work reflects the Spirit's role in the triune economy of salvation: proceed
   },
   {
     "id": 36,
-    "question": "What is adoption?",
+    "question": "What is Adoption?",
     "answer": "Adoption is an act of God’s free grace, by which we are received into the company of God’s children and have a right to all the privileges of his sons.",
     "mainScripture": "“The Spirit himself bears witness with our spirit that we are children of God, and if children, then heirs—heirs of God and fellow heirs with Christ, provided we suffer with him in order that we may also be glorified with him.” — Romans 8:16-17",
     "otherScriptures": [
@@ -771,7 +771,7 @@ This work reflects the Spirit's role in the triune economy of salvation: proceed
   },
   {
     "id": 39,
-    "question": "What are the Sacraments or ordinances?",
+    "question": "What are the Sacraments or Ordinances?",
     "answer": "The ordinances ordained by Christ, two in number being Baptism and the Lord’s Supper; which are holy signs and seals of the covenant of grace, appointed by Christ to represent Him and His benefits, and to confirm our faith in Him.",
     "mainScripture": "“We were buried therefore with him by baptism into death, in order that, just as Christ was raised from the dead by the glory of the Father, we too might walk in newness of life” — Romans 6:4",
     "otherScriptures": [
@@ -919,7 +919,7 @@ This work reflects the Spirit's role in the triune economy of salvation: proceed
   },
   {
     "id": 47,
-    "question": "What is the visible (local) church?",
+    "question": "What is the visible (local) Church?",
     "answer": "The visible church is the organized society of professing believers, in all ages and places, wherein the gospel is truly preached and the ordinances of Baptism and the Lord’s Supper are administered in true faith.",
     "mainScripture": "“And they devoted themselves to the apostles’ teaching and the fellowship, to the breaking of bread and the prayers...And all who believed were together and had all things in common.” — Acts 2:42,44",
     "otherScriptures": [
@@ -937,7 +937,7 @@ This work reflects the Spirit's role in the triune economy of salvation: proceed
   },
   {
     "id": 48,
-    "question": "What is the invisible (universal) church?",
+    "question": "What is the invisible (universal) Church?",
     "answer": "The invisible church is the whole number of the elect, that have been, are and shall be gathered together under Christ as its head.",
     "mainScripture": "“And he put all things under his feet and gave him as head over all things to the church, which is his body, the fullness of him who fills all in all.” — Ephesians 1:22-23",
     "otherScriptures": [
@@ -956,7 +956,7 @@ This work reflects the Spirit's role in the triune economy of salvation: proceed
   },
   {
     "id": 49,
-    "question": "What is the Mission of the church?",
+    "question": "What is the Mission of the Church?",
     "answer": "The mission of the church is to faithfully, proactively make disciples both locally and in every corner of the globe.",
     "mainScripture": "“And Jesus said to them, “All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.” — Matthew 28:19-20",
     "otherScriptures": [
