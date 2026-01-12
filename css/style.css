@@ -299,3 +299,10 @@ nav button.active::after {
 .print-btn:hover {
   background-color: #2563eb;
 }
+
+iframe {
+  width: 100%;
+  height: calc(100vh - 150px); /* adjust to leave room for header/nav */
+  border: none;
+  border-radius: var(--radius);
+}

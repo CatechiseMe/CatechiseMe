@@ -127,6 +127,33 @@ document.addEventListener("DOMContentLoaded", () => {
       .addEventListener("click", renderContentView);
   }
 
+  function renderPdfView(url, title = "PDF Document") {
+  const appContainer = document.getElementById("app-container");
+  
+  appContainer.innerHTML = `
+    <div class="view active">
+      <button class="back-button">Back to Resources</button>
+      <div style="margin-top:1rem;">
+        <iframe src="${url}" style="width:100%; height:70vh;" frameborder="0"></iframe>
+      </div>
+      <button class="print-btn" style="margin-top:0.5rem;">
+        Print PDF
+      </button>
+    </div>
+  `;
+
+  // Back button
+  document.querySelector(".back-button").addEventListener("click", () => {
+    renderResourcesView();
+  });
+
+  // Print button
+  document.querySelector(".print-btn").addEventListener("click", () => {
+    const iframe = document.querySelector("iframe");
+    if (iframe) iframe.contentWindow.print();
+  });
+}
+
   function renderResourcesView() {
     const grouped = resources.reduce((acc, r) => {
       acc[r.category] ??= [];
@@ -145,15 +172,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 ${r.url.endsWith('.pdf') ? 'download' : ''}>
-                ${r.title}
-                ${r.url.endsWith('.pdf') ? ' (Download / Print)' : ''}
+                ${r.title} (Desktop Only)
+                ${r.url.endsWith('.pdf') ? ' (Download)' : ''}
               </a>
-              
-              ${r.url.endsWith('.pdf')
-                ? `<button class="print-btn" data-url="${r.url}">
-                     Print PDF
-                  </button>`
-                : ''}
             </li>`
         )
         .join("");
@@ -161,11 +182,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     html += `</div>`;
     appContainer.innerHTML = html;
-    document.querySelectorAll('.print-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    window.open(btn.dataset.url, '_blank');
-  });
-});
   }
 
   function setActiveButton(id) {
