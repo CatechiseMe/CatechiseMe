@@ -1,12 +1,11 @@
-const CACHE_NAME = 'catechisme-cache-v1';
+const CACHE_NAME = 'catechisme-cache-v2';
 const urlsToCache = [
   './',
   './index.html',
   './css/style.css',
   './js/app.js',
-  './js/data.js',
-  './resources/pdfs/catechism-printable.pdf'
-  // Add more resources here
+  './js/data.js'
+    // Add more resources here
 ];
 
 self.addEventListener('install', (event) => {

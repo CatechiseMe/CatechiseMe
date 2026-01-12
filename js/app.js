@@ -140,13 +140,32 @@ document.addEventListener("DOMContentLoaded", () => {
       html += grouped[cat]
         .map(
           (r) =>
-            `<li><a href="${r.url}" target="_blank">${r.title}</a></li>`
+            `<li>
+              <a href="${r.url}"
+                target="_blank"
+                rel="noopener noreferrer"
+                ${r.url.endsWith('.pdf') ? 'download' : ''}>
+                ${r.title}
+                ${r.url.endsWith('.pdf') ? ' (Download / Print)' : ''}
+              </a>
+              
+              ${r.url.endsWith('.pdf')
+                ? `<button class="print-btn" data-url="${r.url}">
+                     Print PDF
+                  </button>`
+                : ''}
+            </li>`
         )
         .join("");
       html += `</ul>`;
     }
     html += `</div>`;
     appContainer.innerHTML = html;
+    document.querySelectorAll('.print-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    window.open(btn.dataset.url, '_blank');
+  });
+});
   }
 
   function setActiveButton(id) {
@@ -203,6 +222,10 @@ function showUpdateBanner(registration) {
   const btn = document.getElementById('update-btn');
 
   banner.style.display = 'flex';
+  banner.querySelector('span').textContent =
+    'A new version is available. Tap Update to refresh.';
+
+  document.body.classList.add('has-update-banner');
 
   btn.onclick = () => {
     registration.waiting.postMessage({ type: 'SKIP_WAITING' });

@@ -34,7 +34,7 @@ export const catechisms = [
     id: 1,
     question: "Who is the first and best of beings?",
     answer: "The Lord God is the first and best of beings.",
-    mainScripture: `“Thus saith the LORD the King of Israel, and his Redeemer the LORD of hosts; I am the first, and I am the last; and beside me there is no God.” — Isaiah 44:6`,
+    mainScripture: `“Thus says the LORD the King of Israel, and his Redeemer the LORD of hosts: I am the first, and I am the last; beside me there is no God.” — Isaiah 44:6`,
     otherScriptures: [
       { ref: "Exodus 20:1-3", link: blbLink("Exodus 20:1-3") },
       { ref: "1 Samuel 2:2", link: blbLink("1 Samuel 2:2") },
@@ -44,7 +44,7 @@ export const catechisms = [
     ],
     explanation: "The Lord God of the Bible is the creator and sovereign ruler of all things. As such, He is Holy like no other and deserves to be revered, worshiped and obeyed.",
     expandedExplanation: [
-      `To deepen our understanding of this foundational truth, let's unpack what it means for God to be "the first and best of beings" in a way that honors the full counsel of Scripture. What we think about God isn't just an abstract idea—it's foundational to our faith.`,
+      `What we think about God isn't just an abstract idea—it's foundational to our faith.`,
       `First, consider what "first" reveals about God. This points to God's aseity—He is self-existent, depending on nothing and no one for His being. Unlike everything else in creation, which derives its existence from something prior, God has no beginning. He is the uncaused Cause, the eternal "I AM" (Exodus 3:14). Isaiah 44:6 echoes this by declaring Him "the first and the last," emphasizing that history begins and ends with Him. There's no "before" God, no rival who predates Him. This guards against idolatry (as in Exodus 20:1-3), reminding us that nothing can claim first place in our hearts.`,
       `Now, turn to "best," which highlights God's supremacy and infinite perfections. God is not merely better than others but the standard of all goodness, holiness, and excellence. Psalms like 96:4 and 97:9 proclaim Him "greatly to be praised" and "most high over all the earth," not because He's in competition but because He alone possesses attributes like omniscience, omnipotence, and immutability in perfect measure. Hannah's words in 1 Samuel 2:2—"There is none holy like the LORD; there is none besides you"—underscore His uniqueness. He's not "best" by comparison to flawed alternatives; He defines what "best" means. This ties into God's sovereignty: As Creator and Ruler (Genesis 1:1; Colossians 1:16-17), He governs all things for His glory, including our salvation through Christ alone (Ephesians 1:11).`,
       `This isn't just doctrinal; it's doxological (worship-focused) and practical. It undergirds the Solas of the Reformation: Scripture alone reveals this God, grace alone draws us to Him, faith alone unites us, Christ alone mediates, and all to God's glory alone. Without this foundation, our faith crumbles into self-reliance or despair. Yet it is liberating: Knowing God as first frees us from anxiety about the future (He's already there), and as best, it invites trust in His providence over our plans. Let this truth not just inform minds but transform lives into places where God is first and best in word, deed, and affection.`
@@ -168,7 +168,7 @@ export const catechisms = [
   {
     "id": 8,
     "question": "How do we know that the Bible is the Word of God?",
-    "answer": "The Bible evidences itself to be God’s Word by the heavenliness of its doctrine, the unity of its parts, and its power to convert sinners and to edify saints. But only the Spirit of God can make us willing to agree and submit to the Bible as the Word of God.",
+    "answer": "The Bible evidences itself to be God’s Word by the divine nature of its doctrine, the unity of its parts, and its power to convert sinners and to edify saints. But only the Spirit of God can make us willing to agree and submit to the Bible as the Word of God.",
     "mainScripture": "“The law of the Lord is perfect, reviving the soul; the testimony of the Lord is sure, making wise the simple; the precepts of the Lord are right, rejoicing the heart; the commandment of the Lord is pure, enlightening the eyes; the fear of the Lord is clean, enduring forever; the rules of the Lord are true, and righteous altogether.” — Psalm 19:7-9",
     "otherScriptures": [
       { "ref": "John 16:13-14", "link": blbLink("John 16:13-14") },
@@ -320,7 +320,7 @@ export const catechisms = [
      expandedExplanation: [
       `God's glory constitutes the radiant manifestation of his intrinsic holiness, outwardly displaying his unparalleled worth, beauty, and majesty throughout creation and redemption. Holiness denotes God's absolute separation from all that is common or impure, marking his transcendent uniqueness in every attribute—eternal, immutable, omnipotent, omniscient, and infinitely good (Isaiah 6:3; Exodus 15:11). This holiness is not static but unrestrained, emanating as glory that fills the earth, evident in the heavens declaring his handiwork and the seraphim's ceaseless cry (Psalm 19:1; Revelation 4:8). Glory, then, is the visible splendor of this holiness, compelling recognition and reverence from all beings (Psalm 96:3-4; Romans 11:36).`,
       `In Scripture, God's glory appears in theophanies, like the pillar of cloud and fire, or the shekinah in the temple, symbolizing his dwelling presence amid his people (Exodus 40:34-38; 1 Kings 8:10-11). It culminates in the incarnation, where the Word made flesh reveals the Father's glory full of grace and truth (John 1:14; Hebrews 1:3). All divine actions—creation, providence, salvation—aim at this end, as God shares his glory with none other, yet invites creatures to partake in reflecting it (Isaiah 42:8; Ephesians 1:11-12). Thus, glory is not peripheral but central, the ultimate end uniting God's self-revelation and human response (Habakkuk 2:14; Philippians 2:10-11).`,
-      `Meditating on God's glory evokes awe-struck worship for the Holy One whose splendor permeates existence. This doctrine reshapes believers, calling them to live as mirrors of his holiness, pursue purity and proclame that his name be hallowed, leading to transformed lives of eternal exaltation.`
+      `Meditating on God's glory evokes awe-struck worship for the Holy One whose splendor permeates existence. This doctrine reshapes believers, calling them to live as mirrors of his holiness, pursue purity and proclaim that his name be hallowed, leading to transformed lives of eternal exaltation.`
     ]
   },
   {
@@ -614,7 +614,7 @@ export const catechisms = [
     ],
     "explanation": "God has determined that one of the means of salvation is the hearing (or reading) of the word (Rom 10:17). After one is granted faith, the word is then studied so that its profitability for teaching, reproof, correction and training in righteousness (2 Tim 3:15-17) can be effectively utilized by the believer.",
      expandedExplanation: [
-      `The study of the Word becomes effective for salvation through the sovereign agency of the Holy Spirit, who transforms the mere reading or hearing of Scripture into a powerful instrument for spiritual renewal and growth. The Spirit first employs the Word to convince sinners of their guilt and misery before a holy God, exposing the deceitfulness of sin and the futility of self-righteousness, much as the law serves as a tutor to lead to Christ (Psalm 19:7; Galatians 3:24). Then, He enlightens the mind with the knowledge of Christ's person and work, unveiling the gospel's glory as the power of God unto salvation, where faith is birthed through hearing (Romans 1:16; 10:17). Furthermore, the Spirit builds believers up in holiness by sanctifying them through the truth, hiding God's commands in the heart to resist sin and pursue righteousness (Psalm 119:11; John 17:17). He also imparts comfort amid trials, reminding the soul of God's promises and the hope of glory, sustaining faith unto perseverance (1 Thessalonians 1:6; Romans 15:4).`,
+      `The study of the Word becomes effective for salvation through the sovereign agency of the Holy Spirit, who transforms the mere reading or hearing of Scripture into a powerful instrument for spiritual renewal and growth. The Spirit first employs the Word to convince sinners of their guilt and misery before a holy God, exposing the deceitfulness of sin and the futility of self-righteousness, much as the law serves as a tutor to lead to Christ (Psalm 19:7; Galatians 3:24). Then, He enlightens the mind with the knowledge of Christ's person and work, unveiling the gospel's glory as the power of God unto salvation, where faith is birthed through hearing (Romans 1:16; 10:17). Furthermore, the Spirit builds believers up in holiness by sanctifying them through the truth, hiding God's commands in the heart to resist sin and pursue righteousness (Psalm 119:11; John 17:17). He also imparts peace amid trials, reminding the soul of God's promises and the hope of glory, sustaining faith unto perseverance (1 Thessalonians 1:6; Romans 15:4).`,
       `This efficacy resides not in human effort or eloquence but in the Spirit's divine operation, who breathes life into the letter of the law and gospel, making it living and active to discern thoughts and intentions (Hebrews 4:12; 2 Corinthians 3:6). Preaching, as an ordained extension of the Word's study, amplifies this work, as the Spirit uses proclaimed truth to convert the hardened and edify the saints (1 Corinthians 1:21; 2 Timothy 4:2).`,
       `Thus, the study of the Word, under the Spirit's blessing, leads the soul from darkness to light, from bondage to freedom, evoking profound gratitude to God, who by His breath revives the dead and equips His people for every good work, culminating in eternal praise.`
     ]
@@ -752,7 +752,7 @@ This work reflects the Spirit's role in the triune economy of salvation: proceed
   {
     "id": 38,
     "question": "What are the benefits which accompany or flow from justification, adoption and sanctification?",
-    "answer": "The benefits which accompany or flow from justification, adoption and sanctification are assurance of God’s love, peace of conscience, fellowship with Christ, joy in the Holy Spirit, the increase of grace, the privilege of prayer and the promise of preservation to the end.",
+    "answer": "The benefits which accompany or flow from justification, adoption and sanctification are the assurance of God’s love, peace of conscience, fellowship with Christ, joy in the Holy Spirit, the increase of grace, the privilege of prayer and the promise of preservation to the end.",
     "mainScripture": "“Therefore, since we have been justified by faith, we have peace with God through our Lord Jesus Christ. Through him we have also obtained access by faith into this grace in which we stand, and we rejoice in hope of the glory of God… because God’s love has been poured into our hearts through the Holy Spirit who has been given to us.” — Romans 5:1-5",
     "otherScriptures": [
       { "ref": "Proverbs 4:18", "link": blbLink("Proverbs 4:18") },
@@ -772,7 +772,7 @@ This work reflects the Spirit's role in the triune economy of salvation: proceed
   {
     "id": 39,
     "question": "What are the Sacraments or Ordinances?",
-    "answer": "The ordinances ordained by Christ, two in number being Baptism and the Lord’s Supper; which are holy signs and seals of the covenant of grace, appointed by Christ to represent Him and His benefits, and to confirm our faith in Him.",
+    "answer": "The ordinances ordained by Christ, only two in number, are Baptism and the Lord’s Supper; which are holy signs and seals of the covenant of grace, appointed by Christ to represent Him and His benefits, and to confirm our faith in Him.",
     "mainScripture": "“We were buried therefore with him by baptism into death, in order that, just as Christ was raised from the dead by the glory of the Father, we too might walk in newness of life” — Romans 6:4",
     "otherScriptures": [
       { "ref": "Matthew 26:26-28", "link": blbLink("Matthew 26:26-28") },
@@ -920,7 +920,7 @@ This work reflects the Spirit's role in the triune economy of salvation: proceed
   {
     "id": 47,
     "question": "What is the visible (local) Church?",
-    "answer": "The visible church is the organized society of professing believers, in all ages and places, wherein the gospel is truly preached and the ordinances of Baptism and the Lord’s Supper are administered in true faith.",
+    "answer": "The visible church is an organized society of professing believers, in every age and place, wherein the gospel is truly preached and the ordinances of Baptism and the Lord’s Supper are administered in true faith.",
     "mainScripture": "“And they devoted themselves to the apostles’ teaching and the fellowship, to the breaking of bread and the prayers...And all who believed were together and had all things in common.” — Acts 2:42,44",
     "otherScriptures": [
       { "ref": "Acts 7:38", "link": blbLink("Acts 7:38") },
@@ -957,7 +957,7 @@ This work reflects the Spirit's role in the triune economy of salvation: proceed
   {
     "id": 49,
     "question": "What is the Mission of the Church?",
-    "answer": "The mission of the church is to faithfully, proactively make disciples both locally and in every corner of the globe.",
+    "answer": "The mission of the church is to faithfully, proactively make disciples of Jesus Christ, according to the scriptures, both locally and in every corner of the globe.",
     "mainScripture": "“And Jesus said to them, “All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.” — Matthew 28:19-20",
     "otherScriptures": [
       { "ref": "Ephesians 3:1-11", "link": blbLink("Ephesians 3:1-11") },
