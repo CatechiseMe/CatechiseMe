@@ -1,4 +1,4 @@
-const CACHE_NAME = 'catechisme-cache-v4';
+const CACHE_NAME = 'catechisme-cache-v1.2';
 const urlsToCache = [
   './',
   './index.html',
@@ -35,5 +35,4 @@ self.addEventListener('fetch', (event) => {
 
 self.addEventListener('message', (event) => {
   if (event.data.type === 'SKIP_WAITING') self.skipWaiting();
-
 });
