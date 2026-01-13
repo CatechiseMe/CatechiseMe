@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.getElementById("donate-btn").addEventListener("click", () => {
       window.open(
-        "https://www.paypal.com/ncp/payment/6P4SJKMEHNWBS",
+        "https://donorbox.org/catechiseme-development-support",
         "_blank"
       );
     });
