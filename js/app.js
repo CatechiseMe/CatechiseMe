@@ -172,7 +172,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 ${r.url.endsWith('.pdf') ? 'download' : ''}>
-                ${r.title} (Desktop Only)
+                ${r.title} 
                 ${r.url.endsWith('.pdf') ? ' (Download)' : ''}
               </a>
             </li>`
