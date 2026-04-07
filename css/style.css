@@ -216,34 +216,6 @@ nav button.active::after {
         padding: 0.5rem;
     }
 }
-.support-section {
-    margin-top: 2.5rem;
-    padding: 1.2rem;
-    background-color: #e8f6f3;
-    border-left: 4px solid var(--secondary-color);
-    border-radius: 6px;
-    text-align: center;
-}
-
-.support-section h3 {
-    color: var(--primary-color);
-    margin-bottom: 0.5rem;
-}
-
-#donate-btn {
-    margin-top: 0.8rem;
-    background-color: var(--secondary-color);
-    color: white;
-    border: none;
-    padding: 0.7rem 1.4rem;
-    font-size: 1rem;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-#donate-btn:hover {
-    background-color: #2980b9;
-}
 
 #update-banner {
   position: fixed;

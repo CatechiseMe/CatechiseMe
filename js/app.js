@@ -17,16 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <p>This is NOT meant to replace your personal study of the Scriptures, which remain the ultimate authority and source of truth. Rather, it serves as a helpful starting point for anyone seeking to understand the basics of Reformed Theology.</p>
           <p>I pray this catechism strengthens and encourages you as you grow in your discipleship journey.</p>
           <p><em>Soli Deo Gloria</em></p>
-
-          <div class="support-section">
-            <h3>Support CatechiseMe</h3>
-            <p>
-              Help us keep this app free to as many people as possible.
-              Donations cover development costs with the remaining proceeds going to ministries like
-              <strong>Disciple the Nations</strong>. Find out more about DTN on our Resource page.
-            </p>
-            <button id="donate-btn">Support This App</button>
-          </div>
+          
           <div class="scripture-notice">
           <p>
             Scripture quotations are from the ESV® Bible (The Holy Bible, English Standard Version®),
@@ -42,13 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
       </div>
     `;
-
-    document.getElementById("donate-btn").addEventListener("click", () => {
-      window.open(
-        "https://donorbox.org/catechiseme-development-support",
-        "_blank"
-      );
-    });
+   
   }
 
   function renderContentView() {
