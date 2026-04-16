@@ -74,6 +74,24 @@ export const catechisms = [
   },
   {
     id: 3,
+    question: "How do we know there is a God?",
+    answer: "The light of nature in man (natural reason, the innate sense of God, our conscience, etc.), and the works of God, plainly declare that there is a God; but his Word (the Scriptures) and the Holy Spirit only, do effectually reveal him unto us for our salvation.",
+    mainScripture: `“The heavens declare the glory of God, and the sky above proclaims his handiwork. Day to day pours out speech, and night to night reveals knowledge.” — Psalm 19:1-2`,
+    otherScriptures: [
+      { ref: "Romans 1:18-20", link: blbLink("Romans 1:18-20") },
+      { ref: "1 Corinthians 1:21-24", link: blbLink("1 Corinthians 1:21-24") },
+      { ref: "2 Timothy 3:15", link: blbLink("2 Timothy 3:15") }
+    ],
+    explanation: "Natural knowledge (the conscience of man and the visible works of God) is evidence enough for us all to be accountable to honor and worship the Lord our God. Spiritual knowledge is possessed only by those whose natural blindness has been overcome by the Spirit of God (1 Cor 2:14-15).",
+     expandedExplanation: [
+      `The existence of God is evident through general revelation, where the innate innate reason and conscience within humanity and the majestic works of creation unmistakably proclaim his reality, power, and divine nature (Romans 1:19-20; Psalm 19:1-2). This natural knowledge, imprinted on every conscience, renders all people without excuse, as it stirs an awareness of a supreme being to whom we owe allegiance and worship (Acts 17:27-28). Yet, this revelation, while sufficient for accountability, falls short of imparting saving knowledge, as sin darkens the mind and suppresses the truth in unrighteousness (Romans 1:18; Ephesians 4:18).`,
+      `True knowledge of God for salvation comes solely through special revelation: his Word and Spirit working effectually in the heart. The Scriptures, as the written testimony of God's self-disclosure, unveil his character, will, and redemptive plan, but apart from the illuminating work of the Holy Spirit, they remain veiled (1 Corinthians 2:9-10, 14; 2 Corinthians 3:14-18). The Spirit, as the divine agent of regeneration, opens blind eyes and renews the mind, enabling faith in the gospel (John 3:5-8; Titus 3:5). This effectual revelation centers on Christ, whom no one knows except as the Father reveals him through the Spirit (Matthew 11:27; 16:17), leading to a personal encounter with God that transforms the soul.`,
+      `Thus, while the heavens declare God's glory and the conscience bears witness to his law, only the harmonious testimony of Word and Spirit—convicting of sin, illuminating truth, and assuring adoption—brings sinners into fellowship with the living God (John 16:8-15; 2 Timothy 3:15-17). This progression from general to special revelation underscores God's sovereignty in salvation, where he graciously overcomes human rebellion to draw us to himself.`,
+      `Beholding the God who reveals himself both in creation's splendor and Scripture's clarity fills us with awe, stirring hearts to praise the One who seeks and saves the lost, and urging lives marked by gratitude, obedience, and proclamation of his saving truth.`
+    ]
+  },
+  {
+    id: 4,
     question: "Is there more than one God?",
     answer: "There is only one true and living God.",
     mainScripture: `“For great is the Lord, and greatly to be praised; he is to be feared above all gods. For all the gods of the peoples are worthless idols, but the Lord made the heavens.” — Psalm 96:4-5`,
@@ -90,7 +108,27 @@ export const catechisms = [
     ]
   },
   {
-    id: 4,
+    id: 5,
+    question: "What is the holiness of God?",
+    answer: "The holiness of God is His utterly unique and transcendent being, by which He is infinitely exalted above all creation and perfectly pure in all His ways. It is not merely one attribute among others, but the fullness of His divine perfection, so that everything God is and does is perfectly holy.",
+    mainScripture: `“Holy, holy, holy is the Lord of hosts; the whole earth is full of his glory!” — Isaiah 6:3`,
+    otherScriptures: [
+      { ref: "Exodus 15:11", link: blbLink("Exodus 15:11") },
+      { ref: "Leviticus 11:44", link: blbLink("Leviticus 11:44") },
+      { ref: "1 Samuel 2:2", link: blbLink("1 Samuel 2:2") },
+      { ref: "Habakkuk 1:13", link: blbLink("Habakkuk 1:13") },
+      { ref: "1 Peter 1:15-16", link: blbLink("1 Peter 1:15-16") }
+    ],
+    explanation: "God’s holiness means that He is completely distinct from all creation and entirely free from sin. He is pure in His nature, perfect in His character, and righteous in all His works. His holiness defines all His attributes, so that everything He does is altogether good and just. Because He is holy, He must hate sin and cannot tolerate evil.",
+     expandedExplanation: [
+      `The holiness of God is the foundation of all His attributes, expressing both His transcendence and His moral perfection. As transcendent, God is wholly set apart from creation, infinitely exalted above all that He has made (Isaiah 57:15). As morally perfect, He is without any corruption, impurity, or defect, being light in whom there is no darkness at all (1 John 1:5). This holiness is not merely one attribute among others, but the very beauty and perfection of all that God is, shaping His justice, love, mercy, and truth.`,
+      `God’s holiness also establishes His absolute opposition to sin. Because He is of purer eyes than to behold evil, He must judge all unrighteousness (Habakkuk 1:13; Romans 1:18). His law reflects this holiness, requiring perfect obedience and condemning all transgression. Thus, holiness reveals both the greatness of God and the gravity of sin, showing the infinite distance between the Creator and fallen humanity.`,
+      `Yet God’s holiness is not only revealed in judgment but also in redemption. In Christ, the holy God makes a way for sinners to be reconciled without compromising His righteousness (Romans 3:25-26). Through union with Christ, believers are set apart as holy and called to reflect God’s character in their lives (1 Peter 1:15-16). This sanctification is the progressive work of conforming them to the image of Christ, preparing them for the day when they will fully share in His holiness (Hebrews 12:10).`,
+      `Meditating on God’s holiness produces reverence, humility, and worship. It compels believers to hate sin, pursue righteousness, and live in awe before the One who is infinitely pure. In beholding His holiness, the redeemed are drawn to both tremble and rejoice, for the Holy One has made Himself their God.`
+    ]
+  },
+  {
+    id: 6,
     question: "How many persons are in the Godhead?",
     answer: "There are three persons in the Godhead: the Father, the Son and the Holy Spirit; these three are one God, the same in essence, equal in power and glory.",
     mainScripture: `“The grace of the Lord Jesus Christ and the love of God and the fellowship of the Holy Spirit be with you all.” — 2 Corinthians 13:14`,
@@ -111,25 +149,7 @@ export const catechisms = [
     ]
   },
   {
-    id: 5,
-    question: "How do we know there is a God?",
-    answer: "The light of nature in man (natural reason, the innate sense of God, our conscience, etc.), and the works of God, plainly declare that there is a God; but his Word (the Scriptures) and the Holy Spirit only, do effectually reveal him unto us for our salvation.",
-    mainScripture: `“The heavens declare the glory of God, and the sky above proclaims his handiwork. Day to day pours out speech, and night to night reveals knowledge.” — Psalm 19:1-2`,
-    otherScriptures: [
-      { ref: "Romans 1:18-20", link: blbLink("Romans 1:18-20") },
-      { ref: "1 Corinthians 1:21-24", link: blbLink("1 Corinthians 1:21-24") },
-      { ref: "2 Timothy 3:15", link: blbLink("2 Timothy 3:15") }
-    ],
-    explanation: "Natural knowledge (the conscience of man and the visible works of God) is evidence enough for us all to be accountable to honor and worship the Lord our God. Spiritual knowledge is possessed only by those whose natural blindness has been overcome by the Spirit of God (1 Cor 2:14-15).",
-     expandedExplanation: [
-      `The existence of God is evident through general revelation, where the innate innate reason and conscience within humanity and the majestic works of creation unmistakably proclaim his reality, power, and divine nature (Romans 1:19-20; Psalm 19:1-2). This natural knowledge, imprinted on every conscience, renders all people without excuse, as it stirs an awareness of a supreme being to whom we owe allegiance and worship (Acts 17:27-28). Yet, this revelation, while sufficient for accountability, falls short of imparting saving knowledge, as sin darkens the mind and suppresses the truth in unrighteousness (Romans 1:18; Ephesians 4:18).`,
-      `True knowledge of God for salvation comes solely through special revelation: his Word and Spirit working effectually in the heart. The Scriptures, as the written testimony of God's self-disclosure, unveil his character, will, and redemptive plan, but apart from the illuminating work of the Holy Spirit, they remain veiled (1 Corinthians 2:9-10, 14; 2 Corinthians 3:14-18). The Spirit, as the divine agent of regeneration, opens blind eyes and renews the mind, enabling faith in the gospel (John 3:5-8; Titus 3:5). This effectual revelation centers on Christ, whom no one knows except as the Father reveals him through the Spirit (Matthew 11:27; 16:17), leading to a personal encounter with God that transforms the soul.`,
-      `Thus, while the heavens declare God's glory and the conscience bears witness to his law, only the harmonious testimony of Word and Spirit—convicting of sin, illuminating truth, and assuring adoption—brings sinners into fellowship with the living God (John 16:8-15; 2 Timothy 3:15-17). This progression from general to special revelation underscores God's sovereignty in salvation, where he graciously overcomes human rebellion to draw us to himself.`,
-      `Beholding the God who reveals himself both in creation's splendor and Scripture's clarity fills us with awe, stirring hearts to praise the One who seeks and saves the lost, and urging lives marked by gratitude, obedience, and proclamation of his saving truth.`
-    ]
-  },
-  {
-    id: 6,
+    id: 7,
     question: "What is the Word of God?",
     answer: "The scriptures of the Old and New Testaments, being given by divine inspiration, are the word of God, the only infallible instruction of faith and practice.",
     mainScripture: `“The law of the Lord is perfect, reviving the soul; the testimony of the Lord is sure, making wise the simple; the precepts of the Lord are right, rejoicing the heart; the commandment of the Lord is pure, enlightening the eyes.” — Psalm 19:7-8`,
@@ -148,7 +168,7 @@ export const catechisms = [
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "question": "What do the Scriptures mainly teach?",
     "answer": "The scriptures are the written divine revelation of the story of God, whereby we learn about our creator, His purposes, His plans for His creation and His work of redemption.",
     "mainScripture": "“All scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness, that the man of God may be complete, equipped for every good work.” — 2 Timothy 3:16-17",
@@ -166,7 +186,7 @@ export const catechisms = [
     ]
   },
   {
-    "id": 8,
+    "id": 9,
     "question": "How do we know that the Bible is the Word of God?",
     "answer": "The Bible evidences itself to be God’s Word by the divine nature of its doctrine, the unity of its parts, and its power to convert sinners and to edify saints. But only the Spirit of God can make us willing to agree and submit to the Bible as the Word of God.",
     "mainScripture": "“The law of the Lord is perfect, reviving the soul; the testimony of the Lord is sure, making wise the simple; the precepts of the Lord are right, rejoicing the heart; the commandment of the Lord is pure, enlightening the eyes; the fear of the Lord is clean, enduring forever; the rules of the Lord are true, and righteous altogether.” — Psalm 19:7-9",
@@ -186,7 +206,7 @@ export const catechisms = [
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "question": "What are the decrees of God?",
     "answer": "The decrees of God are His eternal purpose, formed according to the deliberate counsel of His will, whereby, for His own glory, He has foreordained whatever comes to pass.",
     "mainScripture": "“for I am God, and there is no other; I am God, and there is none like me, declaring the end from the beginning and from ancient times things not yet done, saying, ‘My counsel shall stand, and I will accomplish all my purpose,’” — Isaiah 46:9-10",
@@ -206,7 +226,7 @@ export const catechisms = [
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "question": "How does God accomplish his decrees?",
     "answer": "God accomplishes His decrees in His works of creation and providence.",
     "mainScripture": "“Worthy are you, our Lord and God, to receive glory and honor and power, for you created all things, and by your will they existed and were created.” — Revelation 4:11",
@@ -231,7 +251,7 @@ export const catechisms = [
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "question": "What are God’s works of providence?",
     "answer": "God’s works of providence are the holy, wise and powerful acts by which He preserves and governs all His creatures, and all their actions.",
     "mainScripture": "“You are the Lord, you alone. You have made heaven, the heaven of heavens, with all their host, the earth and all that is on it, the seas and all that is in them; and you preserve all of them; and the host of heaven worships you.” — Nehemiah 9:6",
@@ -250,7 +270,7 @@ export const catechisms = [
     ]
   },
   {
-    "id": 12,
+    "id": 13,
     "question": "What is the work of creation?",
     "answer": "The work of creation is God’s making all things out of nothing, by the word of His power, and all very good.",
     "mainScripture": "“By faith we understand that the universe was created by the word of God, so that what is seen was not made out of things that are visible.” — Hebrews 11:3",
@@ -268,7 +288,7 @@ export const catechisms = [
     ]
   },
   {
-    "id": 13,
+    "id": 14,
     "question": "How did God create man?",
     "answer": "God created man, male and female, after His own image, in knowledge, righteousness, and holiness, with dominion over other creatures.",
     "mainScripture": "“So God created man in his own image, in the image of God he created him; male and female he created them. And God blessed them. And God said to them, ‘Be fruitful and multiply and fill the earth and subdue it, and have dominion over the fish of the sea and over the birds of the heavens and over every living thing that moves on the earth.’” — Genesis 1:27-28",
@@ -285,7 +305,7 @@ export const catechisms = [
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "question": "What is the primary purpose for which man was created?",
     "answer": "Man was created to glorify God and enjoy Him forever.",
     "mainScripture": "“To the King of ages, immortal, invisible, the only God, be honor and glory forever and ever. Amen.” — 1 Timothy 1:17",
@@ -297,47 +317,34 @@ export const catechisms = [
       { "ref": "1 Corinthians 10:31", "link": blbLink("1 Corinthians 10:31") },
       { "ref": "Revelation 4:11", "link": blbLink("Revelation 4:11") }
     ],
-    "explanation": "To “Glorify” means to reflect or display as glorious. Scripture plainly teaches that we were created to glorify our creator. What is astonishing is that this same creator desires that we find our satisfaction in Him alone as well. There is joy unspeakable found in knowing and bringing glory to our God.",
+    "explanation": "To “glorify” God means to reflect and display His supreme worth and majesty. Scripture teaches that humanity’s chief end is to glorify our Creator by manifesting His holiness, wisdom, and love through obedient lives, while also finding our deepest satisfaction and joy in Him alone as the fountain of infinite delight. This truth re-frames all of life—work, relationships, and trials—as avenues to honor Him and savor His goodness, binding doctrine to joyful devotion in seamless unity.",
      expandedExplanation: [
       `Humanity's chief end, woven into the fabric of existence, is to glorify God by manifesting His supreme worth and to enjoy Him as the fountain of infinite delight, enduring eternally in unbroken communion. Glorification entails reflecting God's attributes through obedient lives that display His holiness, wisdom, and love, making His invisible qualities visible in human conduct (Isaiah 43:7; 1 Corinthians 10:31). This is not servile duty but joyful response to His inherent majesty, as creatures find their highest purpose in ascribing honor to the One deserving all praise (Revelation 4:11; Psalm 29:2). Enjoyment of God complements this, as souls delight in His presence, finding satisfaction in His beauty and goodness that surpasses all earthly pleasures (Psalm 16:11; Psalm 73:25-26).`,
-      `Scripture intertwines these twin aims, revealing that true glorification flows from intimate enjoyment, where knowing God intimately fuels worshipful living (Jeremiah 9:23-24; Philippians 3:8-10). In creation's original harmony, this purpose was unmarred, with humanity reveling in God's fellowship amid Edenic bliss (Genesis 3:8; Psalm 37:4). Even amid fallenness, this ultimate aim persists as the redemptive goal, where believers are conformed to Christ's image to exalt God eternally (Romans 8:29-30; Ephesians 1:11-12). Thus, life's pursuits—work, relationships, trials—are reframed as avenues to honor him and savor His sufficiency, binding doctrine to devotion in seamless unity (John 17:3; 1 Timothy 1:17).`,
+      `Scripture intertwines these twin aims, revealing that true glorification flows from intimate enjoyment, where knowing God intimately fuels worshipful living (Jeremiah 9:23-24; Philippians 3:8-10). In creation's original harmony, this purpose was unmarred, with humanity reveling in God's fellowship amid Edenic bliss (Genesis 3:8; Psalm 37:4). Even amid fallenness, this ultimate aim persists as the redemptive goal, where believers are conformed to Christ's image to exalt God eternally (Romans 8:29-30; Ephesians 1:11-12). Thus, life's pursuits—work, relationships, trials—are reframed as avenues to honor Him and savor His sufficiency, binding doctrine to devotion in seamless unity (John 17:3; 1 Timothy 1:17).`,
       `In grasping this profound purpose, hearts overflow in adoration for the God who ordains our existence for His glory and our joy. This truth profoundly alters daily existence, redirecting ambitions toward eternal satisfaction in Him, fostering lives of worshipful delight that echo into forever.`
     ]
   },
   {
-    "id": 15,
-    "question": "What is the glory of God?",
-    "answer": "The glory of God is His outwardly expressed holiness.",
-    "mainScripture": "“And one called to another and said: “Holy, holy, holy is the Lord of hosts; the whole earth is full of his glory!” — Isaiah 6:3",
-    "otherScriptures": [
-      { "ref": "Psalm 19:1", "link": blbLink("Psalm 19:1") },
-      { "ref": "Isaiah 42:8", "link": blbLink("Isaiah 42:8") },
-      { "ref": "Romans 15:7", "link": blbLink("Romans 15:7") },
-      { "ref": "Ephesians 1:11-12", "link": blbLink("Ephesians 1:11-12") },
-      { "ref": "Philippians 1:20", "link": blbLink("Philippians 1:20") }
-    ],
-    "explanation": "The basic definition of holy is to be separated from the common. The biblical portrayal of God’s unique holiness speaks loudly to His “one of a kind-ness” in all of His characteristics. His holiness radiates His intrinsic worth, His beauty, His greatness, etc. This recognizable outward expression of God’s holiness is what we call His Glory and it is central to all that He is and does. “All that is ever spoken of in the Scriptures as an ultimate end of God’s works is included in that one phrase, the glory of God.” — Jonathan Edwards.",
-     expandedExplanation: [
-      `God's glory constitutes the radiant manifestation of His intrinsic holiness, outwardly displaying His unparalleled worth, beauty, and majesty throughout creation and redemption. Holiness denotes God's absolute separation from all that is common or impure, marking His transcendent uniqueness in every attribute—eternal, immutable, omnipotent, omniscient, and infinitely good (Isaiah 6:3; Exodus 15:11). This holiness is not static but unrestrained, emanating as glory that fills the earth, evident in the heavens declaring His handiwork and the seraphim's ceaseless cry (Psalm 19:1; Revelation 4:8). Glory, then, is the visible splendor of this holiness, compelling recognition and reverence from all beings (Psalm 96:3-4; Romans 11:36).`,
-      `In Scripture, God's glory appears in theophanies, like the pillar of cloud and fire, or the shekinah in the temple, symbolizing His dwelling presence amid His people (Exodus 40:34-38; 1 Kings 8:10-11). It culminates in the incarnation, where the Word made flesh reveals the Father's glory full of grace and truth (John 1:14; Hebrews 1:3). All divine actions—creation, providence, salvation—aim at this end, as God shares His glory with none other, yet invites creatures to partake in reflecting it (Isaiah 42:8; Ephesians 1:11-12). Thus, glory is not peripheral but central, the ultimate end uniting God's self-revelation and human response (Habakkuk 2:14; Philippians 2:10-11).`,
-      `Meditating on God's glory evokes awe-struck worship for the Holy One whose splendor permeates existence. This doctrine reshapes believers, calling them to live as mirrors of His holiness, pursue purity and proclaim that His name be hallowed, leading to transformed lives of eternal exaltation.`
-    ]
-  },
-  {
     "id": 16,
-    "question": "How do we worship God?",
-    "answer": "Right worship is a right honoring, in thought and practice, of God the way He really is.",
-    "mainScripture": "“I appeal to you therefore, brothers, by the mercies of God, to present your bodies as a living sacrifice, holy and acceptable to God, which is your spiritual worship.” — Romans 12:1",
+    "question": "How do we glorify God?",
+    "answer": "We glorify God by knowing Him according to His Word, trusting in Him through Christ, obeying His commands, and submitting to His will in all things, offering our whole lives as worship to Him.",
+    "mainScripture": "“So, whether you eat or drink, or whatever you do, do all to the glory of God.” — 1 Corinthians 10:31",
     "otherScriptures": [
-      { "ref": "Matthew 15:8-9", "link": blbLink("Matthew 15:8-9") },
-      { "ref": "John 4:23-24", "link": blbLink("John 4:23-24") },
-      { "ref": "1 Corinthians 10:31", "link": blbLink("1 Corinthians 10:31") }
+      { "ref": "Matthew 5:16", "link": blbLink("Matthew 5:16") },
+      { "ref": "John 4:23–24", "link": blbLink("John 4:23–24") },
+      { "ref": "John 15:8", "link": blbLink("John 15:8") },
+      { "ref": "Romans 12:1–2", "link": blbLink("Romans 12:1–2") },
+      { "ref": "Colossians 3:17", "link": blbLink("Colossians 3:17") },
+      { "ref": "Hebrews 11:6", "link": blbLink("Hebrews 11:6") }
     ],
-    "explanation": "Worship begins with right thinking about God, includes a right spiritual grasp of God’s supreme value and from there comes the natural progression of acting in a way that reflects those things. What we think and believe will always come out in our actions. “Through him, then,” (that is Christ) “let us continually offer up a sacrifice of praise to God, that is, the fruit of lips that acknowledge his name. Do not neglect to do good and to share what you have, for such sacrifices are pleasing to God.” — Hebrews 13:15-16.",
+    "explanation": "To glorify God is to live in a way that reflects His worth according to His revealed will. This begins with true knowledge of God from Scripture, leads to faith in Jesus Christ, and is expressed in obedience and submission in every area of life. Because God is infinitely worthy, all of life is to be lived for His honor. This obedience is not limited to outward actions but includes the inward posture of the heart, as believers seek to honor God in both motive and deed. True glorifying of God therefore includes worship, rightly understood as honoring Him as He truly is in thought, desire, and practice.",
      expandedExplanation: [
-      `True worship of God flows from a heart that beholds Him as He has revealed Himself in Scripture, acknowledging His infinite worth and responding in every aspect of life. It begins in the mind, where we must align our thoughts with the truth of God's character—His holiness, sovereignty, and unchanging goodness—rejecting any distortion or vain imagination that diminishes His glory (Matthew 15:8-9). Worship is not confined to rituals or moments but encompasses the whole of our existence, as we present our bodies as living sacrifices, transforming ordinary actions into acts of devotion (Romans 12:1-2). This spiritual worship demands that we honor God in spirit and truth, engaging our innermost being with sincere adoration rather than empty forms (John 4:23-24).`,
-      `In practice, this honoring extends to all we do, whether in eating, drinking, or any endeavor, ensuring that every deed reflects God's supreme value and brings Him glory (1 Corinthians 10:31). The Scriptures portray worship as a continual offering of praise through Christ, manifesting in the fruit of lips that confess His name and in deeds of goodness and generosity that please Him (Hebrews 13:15-16). It is a response to God's mercy, compelling us to live in obedience and gratitude, recognizing that true worship integrates doctrine with daily living, where faith produces works that exalt the Lord.`,
-      `Thus, as we grasp the depth of God's self-revelation, our worship becomes a pathway to deeper communion with Him, stirring our souls to greater reverence and transforming our lives into a symphony of praise that echoes His eternal glory.`
+      `Glorifying God is the practical outworking of man’s chief end, requiring a life shaped by divine revelation and faith that produces obedience. It begins with knowing God as He has made Himself known in His Word, for apart from true knowledge there can be no true worship (John 17:3; Colossians 1:9–10). This knowledge, by the work of the Spirit, produces faith in Christ, whereby believers rely upon God’s promises, giving Him glory through confident trust in His word and power (Hebrews 11:6; Romans 4:20).`,
+      `From this faith flows obedience, not as a means of earning favor, but as the fruit of a redeemed heart that delights to do God’s will (John 14:15; Ephesians 2:8–10). Such obedience is comprehensive, extending to every aspect of life so that even ordinary actions—eating, working, speaking—become acts done for God’s glory (1 Corinthians 10:31; Colossians 3:17).`,
+      `This comprehensive obedience is what Scripture also calls worship. True worship is the right honoring of God according to His Word, not according to human invention or mere outward ritual (John 4:23–24). It is the presentation of our whole selves as living sacrifices, holy and acceptable to God, which is our spiritual worship (Romans 12:1–2). In this sense, worship is not separate from glorifying God but is its inward and outward expression: the heart adoring God rightly, and the life reflecting that adoration in obedience.`,
+      `Worship therefore includes both gathered devotion and daily faithfulness. It is expressed in praise offered through Christ, and in works of goodness and obedience that flow from faith (Hebrews 13:15–16). What we believe about God necessarily shapes how we worship Him, and what we worship Him for governs how we live before Him.`,
+      `This glorifying and worshiping of God is only possible through union with Christ, apart from whom no one can bear spiritual fruit (John 15:5). By the work of the Holy Spirit, believers are enabled to walk in holiness, resist sin, and submit joyfully to God’s will (Galatians 5:16–25). Thus, glorifying God and worshiping Him are not separate duties but one unified life of faith responding to God’s grace.`,
+      `Meditating on this truth calls believers to a whole-life devotion, where every thought, word, and action is brought under the lordship of Christ. In this way, the believer fulfills his created purpose, living now in anticipation of the eternal worship of God in glory.`
     ]
   },
   {
@@ -843,6 +850,61 @@ This work reflects the Spirit's role in the triune economy of salvation: proceed
   },
   {
     "id": 43,
+    "question": "What is the visible (local) Church?",
+    "answer": "The visible church is an organized society of professing believers, in every age and place, wherein the gospel is truly preached and the ordinances of Baptism and the Lord’s Supper are administered in true faith.",
+    "mainScripture": "“And they devoted themselves to the apostles’ teaching and the fellowship, to the breaking of bread and the prayers...And all who believed were together and had all things in common.” — Acts 2:42,44",
+    "otherScriptures": [
+      { "ref": "Acts 7:38", "link": blbLink("Acts 7:38") },
+      { "ref": "Acts 20:7", "link": blbLink("Acts 20:7") },
+      { "ref": "Ephesians 4:11-12", "link": blbLink("Ephesians 4:11-12") }
+    ],
+    "explanation": "Every visible (local) church is autonomous under the Lordship of Jesus Christ and the authority of His inerrant word. In addition to faithfully administering the two Holy ordinances, the people of the church exercise the gifts, rights and privileges invested in them by the Word of God, they seek to build up the body by working and living together in harmony and they seek to extend the Gospel to the ends of the earth.",
+     expandedExplanation: [
+      `The visible church manifests God's kingdom on earth as an organized assembly of those who profess faith in Christ, gathered in local congregations across all eras and locations. It is characterized by the faithful preaching of the gospel, which proclaims the person and work of Jesus Christ as the sole means of salvation (Romans 10:14-17) as well as the equipping of the saints for every good work through the word (2 Timothy 3:16-17). This preaching upholds the whole counsel of God, centering on repentance and faith, and is essential for the edification and evangelism of the saints (Acts 20:27).`,
+      `Integral to the visible church are the ordinances of baptism and the Lord's Supper, administered in accordance with scriptural mandate. Baptism signifies initiation into the covenant community, symbolizing union with Christ's death, burial, and resurrection (Romans 6:3-4), while the Lord's Supper commemorates His atoning sacrifice, fostering communion among believers and with Christ (1 Corinthians 11:23-26). These are to be observed in true faith, not as mere rituals but as means of grace that strengthen the body.`,
+      `The visible church functions as a society devoted to apostolic teaching, fellowship, breaking of bread, and prayer (Acts 2:42). It equips believers for ministry through the gifts of the Spirit, under the leadership appointed by Christ (Ephesians 4:11-12; Acts 20:7). Though composed of professing believers, it may include tares among the wheat, necessitating discipline and purity (Matthew 13:24-30; 18:15-20). Autonomy under Christ's lordship ensures each local body governs itself according to Scripture, free from external hierarchies.`,
+      `This doctrine invites worship of the God who dwells among His people, building them into a holy temple (Ephesians 2:21-22). It calls us to active participation, loving one another as members of Christ's body, and extending the gospel's light to a darkened world.`
+    ]
+  },
+  {
+    "id": 44,
+    "question": "What is the invisible (universal) Church?",
+    "answer": "The invisible church is the whole number of the elect, that have been, are and shall be gathered together under Christ as its head.",
+    "mainScripture": "“And he put all things under his feet and gave him as head over all things to the church, which is his body, the fullness of him who fills all in all.” — Ephesians 1:22-23",
+    "otherScriptures": [
+      { "ref": "John 10:16", "link": blbLink("John 10:16") },
+      { "ref": "John 11:52", "link": blbLink("John 11:52") },
+      { "ref": "Ephesians 1:10", "link": blbLink("Ephesians 1:10") },
+      { "ref": "Colossians 1:18", "link": blbLink("Colossians 1:18") }
+    ],
+    "explanation": "The invisible (universal) church is the collective elect throughout all history that is destined to be gathered together with Christ for eternity. While we operate and worship within local congregations, every believer is a part of something bigger. We are a part of God’s family. We are His people.",
+     expandedExplanation: [
+      `The invisible church encompasses the entirety of God's elect, spanning all time—from those who have gone before, to those presently redeemed, to those yet to be called—united under Christ as their sovereign Head. This universal body is not defined by visible structures but by divine election and regeneration, where God sovereignly gathers His chosen ones into eternal fellowship (Ephesians 1:4-5; John 10:16).`,
+      `Christ's headship over the church signifies His supreme authority and intimate union with His people, who are His body and the fullness of Him who fills all in all (Ephesians 1:22-23; Colossians 1:18). As Head, He nourishes, governs, and protects the church, ensuring its ultimate glorification. The invisible church is thus the redeemed community predestined to conformity with Christ's image, drawn from every nation, tribe, and tongue (Romans 8:29-30; Revelation 5:9).`,
+      `This gathering is accomplished through the Spirit's work, uniting believers across history into one flock under one Shepherd (John 11:52; Ephesians 1:10). It transcends local assemblies, embracing figures like Abraham, David, and the apostles, alongside future saints, all justified by faith in the promised Messiah (Hebrews 11:39-40). The invisible church remains hidden to human eyes, known fully only to God, who searches hearts (1 Samuel 16:7).`,
+      `In this truth, we behold the wisdom of the triune God—Father electing, Son redeeming, Spirit sealing—in forming a people for His possession (1 Peter 2:9). It stirs profound gratitude, encouraging perseverance in faith and love for the brethren, as we await the day when the invisible becomes fully visible in eternal glory.`
+    ]
+  },
+  {
+    "id": 45,
+    "question": "What is the Mission of the Church?",
+    "answer": "The mission of the church is to faithfully, proactively make disciples of Jesus Christ, according to the scriptures, both locally and in every corner of the globe.",
+    "mainScripture": "“And Jesus said to them, “All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.” — Matthew 28:19-20",
+    "otherScriptures": [
+      { "ref": "Ephesians 3:1-11", "link": blbLink("Ephesians 3:1-11") },
+      { "ref": "Romans 15:1-29", "link": blbLink("Romans 15:1-29") },
+      { "ref": "Philippians", "link": blbLink("Philippians 2:12–13") }
+    ],
+    "explanation": "Hudson Taylor once said, “The Great Commission is not an option to be considered; it is a command to be obeyed.” In Jesus giving of the great commission He set the course of his church until His return. The church has been charged with the task of disciple making, and we can either actively take part or live in disobedience.",
+     expandedExplanation: [
+      `The mission entrusted to the church flows from Christ's sovereign authority, commissioning His followers to make disciples among all peoples, both near and far. This mandate begins with going—proactively engaging the world with the gospel, not waiting passively but advancing intentionally into every sphere of human existence (Matthew 28:18-20; Acts 1:8). Disciple-making involves evangelism, leading souls to faith in Christ through the proclamation of His death and resurrection (1 Corinthians 15:3-4).`,
+      `Baptism follows conversion, publicly identifying new believers with the triune God—Father, Son, and Holy Spirit—and incorporating them into the church community. Teaching then ensues, instructing disciples to observe all Christ's commands, encompassing doctrine, ethics, and devotion (Matthew 28:19-20). This holistic formation equips believers to mature in faith, bear fruit, and multiply the mission (Ephesians 4:12-13).`,
+      `The church's role in this mission is corporate and perpetual, empowered by Christ's abiding presence until the age's end. It extends God's eternal plan to make known His manifold wisdom through the church to heavenly realms (Ephesians 3:10-11). From local witness to global outreach, as seen in Paul's labors (Romans 15:18-24), the church labors in unity, supporting missionaries and planting congregations (Philippians 1:5; 4:15).`,
+      `This divine commission evokes worship for the God who seeks worshipers from every nation (John 4:23-24). It transforms the church into a sent people, living sacrificially for the glory of Christ, hastening His return through faithful obedience to the gospel's advance.`
+    ]
+  },
+  {
+    "id": 46,
     "question": "What benefits do believers receive from Christ at death?",
     "answer": "At death the souls of believers are made perfect in holiness and immediately pass in to glory. Their bodies rest in their graves until the resurrection.",
     "mainScripture": "“For to me, to live is Christ, and to die is gain. But if I go on living in the body, this will mean fruitful labor for me. So what shall I choose? I do not know. I am torn between the two. I desire to depart and be with Christ, which is far better indeed. But it is more necessary for you that I remain in the body.” — Philippians 1:21-24",
@@ -862,7 +924,7 @@ This work reflects the Spirit's role in the triune economy of salvation: proceed
     ]
   },
   {
-    "id": 44,
+    "id": 47,
     "question": "What benefits do believers receive from Christ at the resurrection?",
     "answer": "At the resurrection, believers, being raised up in glory, shall be openly acknowledged and acquitted in the day of judgment, and made perfectly blessed in the full enjoyment of God to all eternity.",
     "mainScripture": "“So is it with the resurrection of the dead. What is sown is perishable; what is raised is imperishable. It is sown in dishonor; it is raised in glory. It is sown in weakness; it is raised in power.” — 1 Corinthians 15:42-43",
@@ -880,7 +942,7 @@ This work reflects the Spirit's role in the triune economy of salvation: proceed
     ]
   },
   {
-    "id": 45,
+    "id": 48,
     "question": "What shall be done to the wicked at death?",
     "answer": "The souls of the wicked shall at death, be cast into the torments of hell and their bodies lie in their graves till the resurrection and the great day of judgment.",
     "mainScripture": "“And many of those who sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.” — Daniel 12:2",
@@ -898,7 +960,7 @@ This work reflects the Spirit's role in the triune economy of salvation: proceed
     ]
   },
   {
-    "id": 46,
+    "id": 49,
     "question": "What shall be done to the wicked at the day of judgment?",
     "answer": "At the day of judgment, the bodies of the wicked, being raised out of their graves shall be sentenced, together with their souls, to unspeakable torments with the devil and his angels forever.",
     "mainScripture": "“...when the Lord Jesus is revealed from heaven with his mighty angels in flaming fire, inflicting vengeance on those who do not know God and on those who do not obey the gospel of our Lord Jesus. They will suffer the punishment of eternal destruction, away from the presence of the Lord and from the glory of his might...” — 1 Thessalonians 1:7-9",
@@ -915,61 +977,6 @@ This work reflects the Spirit's role in the triune economy of salvation: proceed
       `The sentence pronounced will be one of eternal torment, described as unspeakable anguish in the company of the devil and his angels (Matthew 25:41). This eternal destruction is not cessation of existence but perpetual ruin, away from the presence of the Lord and the glory of His might (2 Thessalonians 1:9). Scripture employs vivid imagery—everlasting fire, the lake of fire—to convey the horror of this state, where the worm does not die and the fire is not quenched (Mark 9:48; Revelation 20:14-15; 21:8). It reflects the infinite offense of sin against an infinitely holy God, demanding infinite punishment.`,
       `This judgment is impartial and a bound to one's works, yet ultimately rooted in rejection of the gospel and the Savior (John 3:18; Romans 2:5-8). The wicked, having suppressed the truth in unrighteousness, will experience the unveiling of God's wrath in its fullness (Romans 1:18). In contrast to the righteous, who are justified by faith and rewarded according to grace, the wicked receive what their deeds deserve, magnifying God's justice (Psalm 9:7-8).`,
       `Reflecting on this awakens awe at the God who will judge the world in righteousness through Christ (Acts 17:31). It transforms us, fostering a life of obedience and evangelism, that others might flee the wrath to come by turning to the Lamb who takes away the sin of the world.`
-    ]
-  },
-  {
-    "id": 47,
-    "question": "What is the visible (local) Church?",
-    "answer": "The visible church is an organized society of professing believers, in every age and place, wherein the gospel is truly preached and the ordinances of Baptism and the Lord’s Supper are administered in true faith.",
-    "mainScripture": "“And they devoted themselves to the apostles’ teaching and the fellowship, to the breaking of bread and the prayers...And all who believed were together and had all things in common.” — Acts 2:42,44",
-    "otherScriptures": [
-      { "ref": "Acts 7:38", "link": blbLink("Acts 7:38") },
-      { "ref": "Acts 20:7", "link": blbLink("Acts 20:7") },
-      { "ref": "Ephesians 4:11-12", "link": blbLink("Ephesians 4:11-12") }
-    ],
-    "explanation": "Every visible (local) church is autonomous under the Lordship of Jesus Christ and the authority of His inerrant word. In addition to faithfully administering the two Holy ordinances, the people of the church exercise the gifts, rights and privileges invested in them by the Word of God, they seek to build up the body by working and living together in harmony and they seek to extend the Gospel to the ends of the earth.",
-     expandedExplanation: [
-      `The visible church manifests God's kingdom on earth as an organized assembly of those who profess faith in Christ, gathered in local congregations across all eras and locations. It is characterized by the faithful preaching of the gospel, which proclaims the person and work of Jesus Christ as the sole means of salvation (Romans 10:14-17) as well as the equipping of the saints for every good work through the word (2 Timothy 3:16-17). This preaching upholds the whole counsel of God, centering on repentance and faith, and is essential for the edification and evangelism of the saints (Acts 20:27).`,
-      `Integral to the visible church are the ordinances of baptism and the Lord's Supper, administered in accordance with scriptural mandate. Baptism signifies initiation into the covenant community, symbolizing union with Christ's death, burial, and resurrection (Romans 6:3-4), while the Lord's Supper commemorates His atoning sacrifice, fostering communion among believers and with Christ (1 Corinthians 11:23-26). These are to be observed in true faith, not as mere rituals but as means of grace that strengthen the body.`,
-      `The visible church functions as a society devoted to apostolic teaching, fellowship, breaking of bread, and prayer (Acts 2:42). It equips believers for ministry through the gifts of the Spirit, under the leadership appointed by Christ (Ephesians 4:11-12; Acts 20:7). Though composed of professing believers, it may include tares among the wheat, necessitating discipline and purity (Matthew 13:24-30; 18:15-20). Autonomy under Christ's lordship ensures each local body governs itself according to Scripture, free from external hierarchies.`,
-      `This doctrine invites worship of the God who dwells among His people, building them into a holy temple (Ephesians 2:21-22). It calls us to active participation, loving one another as members of Christ's body, and extending the gospel's light to a darkened world.`
-    ]
-  },
-  {
-    "id": 48,
-    "question": "What is the invisible (universal) Church?",
-    "answer": "The invisible church is the whole number of the elect, that have been, are and shall be gathered together under Christ as its head.",
-    "mainScripture": "“And he put all things under his feet and gave him as head over all things to the church, which is his body, the fullness of him who fills all in all.” — Ephesians 1:22-23",
-    "otherScriptures": [
-      { "ref": "John 10:16", "link": blbLink("John 10:16") },
-      { "ref": "John 11:52", "link": blbLink("John 11:52") },
-      { "ref": "Ephesians 1:10", "link": blbLink("Ephesians 1:10") },
-      { "ref": "Colossians 1:18", "link": blbLink("Colossians 1:18") }
-    ],
-    "explanation": "The invisible (universal) church is the collective elect throughout all history that is destined to be gathered together with Christ for eternity. While we operate and worship within local congregations, every believer is a part of something bigger. We are a part of God’s family. We are His people.",
-     expandedExplanation: [
-      `The invisible church encompasses the entirety of God's elect, spanning all time—from those who have gone before, to those presently redeemed, to those yet to be called—united under Christ as their sovereign Head. This universal body is not defined by visible structures but by divine election and regeneration, where God sovereignly gathers His chosen ones into eternal fellowship (Ephesians 1:4-5; John 10:16).`,
-      `Christ's headship over the church signifies His supreme authority and intimate union with His people, who are His body and the fullness of Him who fills all in all (Ephesians 1:22-23; Colossians 1:18). As Head, He nourishes, governs, and protects the church, ensuring its ultimate glorification. The invisible church is thus the redeemed community predestined to conformity with Christ's image, drawn from every nation, tribe, and tongue (Romans 8:29-30; Revelation 5:9).`,
-      `This gathering is accomplished through the Spirit's work, uniting believers across history into one flock under one Shepherd (John 11:52; Ephesians 1:10). It transcends local assemblies, embracing figures like Abraham, David, and the apostles, alongside future saints, all justified by faith in the promised Messiah (Hebrews 11:39-40). The invisible church remains hidden to human eyes, known fully only to God, who searches hearts (1 Samuel 16:7).`,
-      `In this truth, we behold the wisdom of the triune God—Father electing, Son redeeming, Spirit sealing—in forming a people for His possession (1 Peter 2:9). It stirs profound gratitude, encouraging perseverance in faith and love for the brethren, as we await the day when the invisible becomes fully visible in eternal glory.`
-    ]
-  },
-  {
-    "id": 49,
-    "question": "What is the Mission of the Church?",
-    "answer": "The mission of the church is to faithfully, proactively make disciples of Jesus Christ, according to the scriptures, both locally and in every corner of the globe.",
-    "mainScripture": "“And Jesus said to them, “All authority in heaven and on earth has been given to me. Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you. And behold, I am with you always, to the end of the age.” — Matthew 28:19-20",
-    "otherScriptures": [
-      { "ref": "Ephesians 3:1-11", "link": blbLink("Ephesians 3:1-11") },
-      { "ref": "Romans 15:1-29", "link": blbLink("Romans 15:1-29") },
-      { "ref": "Philippians", "link": blbLink("Philippians 2:12–13") }
-    ],
-    "explanation": "Hudson Taylor once said, “The Great Commission is not an option to be considered; it is a command to be obeyed.” In Jesus giving of the great commission He set the course of his church until His return. The church has been charged with the task of disciple making, and we can either actively take part or live in disobedience.",
-     expandedExplanation: [
-      `The mission entrusted to the church flows from Christ's sovereign authority, commissioning His followers to make disciples among all peoples, both near and far. This mandate begins with going—proactively engaging the world with the gospel, not waiting passively but advancing intentionally into every sphere of human existence (Matthew 28:18-20; Acts 1:8). Disciple-making involves evangelism, leading souls to faith in Christ through the proclamation of His death and resurrection (1 Corinthians 15:3-4).`,
-      `Baptism follows conversion, publicly identifying new believers with the triune God—Father, Son, and Holy Spirit—and incorporating them into the church community. Teaching then ensues, instructing disciples to observe all Christ's commands, encompassing doctrine, ethics, and devotion (Matthew 28:19-20). This holistic formation equips believers to mature in faith, bear fruit, and multiply the mission (Ephesians 4:12-13).`,
-      `The church's role in this mission is corporate and perpetual, empowered by Christ's abiding presence until the age's end. It extends God's eternal plan to make known His manifold wisdom through the church to heavenly realms (Ephesians 3:10-11). From local witness to global outreach, as seen in Paul's labors (Romans 15:18-24), the church labors in unity, supporting missionaries and planting congregations (Philippians 1:5; 4:15).`,
-      `This divine commission evokes worship for the God who seeks worshipers from every nation (John 4:23-24). It transforms the church into a sent people, living sacrificially for the glory of Christ, hastening His return through faithful obedience to the gospel's advance.`
     ]
   },
   {
