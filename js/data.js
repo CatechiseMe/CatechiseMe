@@ -92,23 +92,6 @@ export const catechisms = [
   },
   {
     id: 4,
-    question: "Is there more than one God?",
-    answer: "There is only one true and living God.",
-    mainScripture: `“For great is the Lord, and greatly to be praised; he is to be feared above all gods. For all the gods of the peoples are worthless idols, but the Lord made the heavens.” — Psalm 96:4-5`,
-    otherScriptures: [
-      { ref: "Exodus 20:1-6", link: blbLink("Exodus 20:1-6") },
-      { ref: "Deuteronomy 6:4", link: blbLink("Deuteronomy 6:4") },
-      { ref: "Jeremiah 10:10", link: blbLink("Jeremiah 10:10") }
-    ],
-    explanation: "There are many things such as physical or personal idols, or even angels and demons which can be and have been called “gods”, but they are not true or living. Only one God is living and true; the God of the Bible.",
-     expandedExplanation: [
-      `Scripture everywhere affirms the absolute oneness of God. The Shema of Israel declares, “Hear, O Israel: The LORD our God, the LORD is one” (Deuteronomy 6:4). This is not merely numerical oneness but the declaration that Yahweh alone is God—there is no other. The first commandment forbids having any gods beside or before Him (Exodus 20:1-6), because to place anything alongside Him is to deny His unique deity. Psalm 96:4-5 contrasts the greatness of the Lord, who is to be feared above all so-called gods, with the reality that “all the gods of the peoples are worthless idols.” These idols—whether carved images, celestial bodies, spirits, or human inventions—possess no life, no power, no true divinity. The Lord alone “made the heavens,” proving His supremacy as the sole Creator.`,
-      `Only the God revealed in Scripture is the true and living God. Jeremiah 10:10 proclaims, “But the LORD is the true God; he is the living God and the everlasting King.” False gods are lifeless fabrications, unable to speak, act, or save. Angels, though mighty, are created beings who veil their faces before His throne. Demons, though real spiritual entities, are fallen creatures under His sovereign judgment. Human rulers or heroes may be called “gods” in a derivative sense (as in Psalm 82), but they are mortal and accountable to the one true Judge. No creature, no force, no principle shares the essence or authority that belongs to God alone. He alone possesses life in Himself, eternally existent in perfect triune communion—Father, Son, and Holy Spirit—yet one in being and undivided in glory.`,
-      `These truths establish strict and unmistakable picture of God through the Scriptures from Genesis to Revelation. There never has been, is not now, and never will be more than one God. This doctrine guards the church against every syncretism that would blend the worship of Yahweh with the worship of others, and it exposes every counterfeit that offers salvation, meaning, or power apart from Him. Yet it also magnifies the wonder of His grace: the one true and living God has not left Himself distant but has revealed Himself, entered into covenant with His people, and accomplished redemption through the incarnate Son. This oneness assures us that there is no conflict in the divine will, no rival power that can thwart His purposes, and no divided loyalty required of His worshipers. It calls us to exclusive devotion, wholehearted trust, and unceasing praise to the one God who alone is worthy. Let this truth not just inform minds but transform lives into places where the one true and living God is feared, loved, and obeyed without rival.`
-    ]
-  },
-  {
-    id: 5,
     question: "What is the holiness of God?",
     answer: "The holiness of God is His utterly unique and transcendent being, by which He is infinitely exalted above all creation and perfectly pure in all His ways. It is not merely one attribute among others, but the fullness of His divine perfection, so that everything God is and does is perfectly holy.",
     mainScripture: `“Holy, holy, holy is the Lord of hosts; the whole earth is full of his glory!” — Isaiah 6:3`,
@@ -125,6 +108,23 @@ export const catechisms = [
       `God’s holiness also establishes His absolute opposition to sin. Because He is of purer eyes than to behold evil, He must judge all unrighteousness (Habakkuk 1:13; Romans 1:18). His law reflects this holiness, requiring perfect obedience and condemning all transgression. Thus, holiness reveals both the greatness of God and the gravity of sin, showing the infinite distance between the Creator and fallen humanity.`,
       `Yet God’s holiness is not only revealed in judgment but also in redemption. In Christ, the holy God makes a way for sinners to be reconciled without compromising His righteousness (Romans 3:25-26). Through union with Christ, believers are set apart as holy and called to reflect God’s character in their lives (1 Peter 1:15-16). This sanctification is the progressive work of conforming them to the image of Christ, preparing them for the day when they will fully share in His holiness (Hebrews 12:10).`,
       `Meditating on God’s holiness produces reverence, humility, and worship. It compels believers to hate sin, pursue righteousness, and live in awe before the One who is infinitely pure. In beholding His holiness, the redeemed are drawn to both tremble and rejoice, for the Holy One has made Himself their God.`
+    ]
+  },
+  {
+    id: 5,
+    question: "Is there more than one God?",
+    answer: "There is only one true and living God.",
+    mainScripture: `“For great is the Lord, and greatly to be praised; he is to be feared above all gods. For all the gods of the peoples are worthless idols, but the Lord made the heavens.” — Psalm 96:4-5`,
+    otherScriptures: [
+      { ref: "Exodus 20:1-6", link: blbLink("Exodus 20:1-6") },
+      { ref: "Deuteronomy 6:4", link: blbLink("Deuteronomy 6:4") },
+      { ref: "Jeremiah 10:10", link: blbLink("Jeremiah 10:10") }
+    ],
+    explanation: "There are many things such as physical or personal idols, or even angels and demons which can be and have been called “gods”, but they are not true or living. Only one God is living and true; the God of the Bible.",
+     expandedExplanation: [
+      `Scripture everywhere affirms the absolute oneness of God. The Shema of Israel declares, “Hear, O Israel: The LORD our God, the LORD is one” (Deuteronomy 6:4). This is not merely numerical oneness but the declaration that Yahweh alone is God—there is no other. The first commandment forbids having any gods beside or before Him (Exodus 20:1-6), because to place anything alongside Him is to deny His unique deity. Psalm 96:4-5 contrasts the greatness of the Lord, who is to be feared above all so-called gods, with the reality that “all the gods of the peoples are worthless idols.” These idols—whether carved images, celestial bodies, spirits, or human inventions—possess no life, no power, no true divinity. The Lord alone “made the heavens,” proving His supremacy as the sole Creator.`,
+      `Only the God revealed in Scripture is the true and living God. Jeremiah 10:10 proclaims, “But the LORD is the true God; he is the living God and the everlasting King.” False gods are lifeless fabrications, unable to speak, act, or save. Angels, though mighty, are created beings who veil their faces before His throne. Demons, though real spiritual entities, are fallen creatures under His sovereign judgment. Human rulers or heroes may be called “gods” in a derivative sense (as in Psalm 82), but they are mortal and accountable to the one true Judge. No creature, no force, no principle shares the essence or authority that belongs to God alone. He alone possesses life in Himself, eternally existent in perfect triune communion—Father, Son, and Holy Spirit—yet one in being and undivided in glory.`,
+      `These truths establish strict and unmistakable picture of God through the Scriptures from Genesis to Revelation. There never has been, is not now, and never will be more than one God. This doctrine guards the church against every syncretism that would blend the worship of Yahweh with the worship of others, and it exposes every counterfeit that offers salvation, meaning, or power apart from Him. Yet it also magnifies the wonder of His grace: the one true and living God has not left Himself distant but has revealed Himself, entered into covenant with His people, and accomplished redemption through the incarnate Son. This oneness assures us that there is no conflict in the divine will, no rival power that can thwart His purposes, and no divided loyalty required of His worshipers. It calls us to exclusive devotion, wholehearted trust, and unceasing praise to the one God who alone is worthy. Let this truth not just inform minds but transform lives into places where the one true and living God is feared, loved, and obeyed without rival.`
     ]
   },
   {
