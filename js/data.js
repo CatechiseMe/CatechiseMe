@@ -53,7 +53,7 @@ export const catechisms = [
   {
     id: 2,
     question: "Who is God?",
-    answer: "God is a Spirit who is infinite, eternal and unchangeable in His being, wisdom, power, holiness, justice, goodness and truth.",
+    answer: "God is Spirit. He is infinite, eternal and unchangeable in His being, wisdom, power, holiness, justice, goodness and truth.",
     mainScripture: `“God is not man, that he should lie, or a son of man, that he should change his mind. Has he said, and will he not do it? Or has he spoken, and will he not fulfill it?” — Numbers 23:19`,
     otherScriptures: [
       { ref: "Exodus 34:6-7", link: blbLink("Exodus 34:6-7") },
@@ -64,7 +64,7 @@ export const catechisms = [
       { ref: "James 1:17", link: blbLink("James 1:17") },
       { ref: "Revelation 4:8", link: blbLink("Revelation 4:8") }
     ],
-    explanation: "What does it mean that God is infinite? That there is no limit to how great He is! What does it mean that He is eternal? That He never had a beginning and will never have an ending. He is the creator and sustainer of everyone and everything.",
+    explanation: "God is unlike His creation; His being and attributes are not limited or shaped by anything outside Himself. To say that God is infinite means there is no limit to His greatness. To say that He is eternal means He has no beginning and no end. He is the Creator and Sustainer of everything and everyone.",
      expandedExplanation: [
       `God is a Spirit (John 4:24). He is not material, composed of parts, or limited by a body. As pure Spirit, He is invisible, immaterial, and present everywhere in His wholeness. This distinguishes Him from all created things and from the idols of the nations, which are mere images fashioned by human hands. Because He is Spirit, true worship must be in spirit and truth, not tied to places or forms, but offered from the heart in accordance with His revealed Word.`,
       `God is infinite, eternal, and unchangeable. These three attributes together describe the perfection and majesty of His being. To say He is infinite is to affirm that there are no bounds to His greatness—His presence fills all space yet is not contained by it, His knowledge comprehends all things past, present, and future, and His power knows no limit. To say He is eternal is to declare that He transcends time altogether: He has no beginning and no end (Psalm 90:2), existing ever the same before the mountains were brought forth. To say He is unchangeable—immutable—is to confess that God is not subject to growth, decline, mood, or alteration. What He is today, He has always been and ever will be (James 1:17; Numbers 23:19). There is no shadow of turning in Him; His purposes last forever, and in Christ, every promise of God is guaranteed - our "Amen" rings true to His glory.`,
@@ -75,14 +75,14 @@ export const catechisms = [
   {
     id: 3,
     question: "How do we know there is a God?",
-    answer: "The light of nature in man (natural reason, the innate sense of God, our conscience, etc.), and the works of God, plainly declare that there is a God; but his Word (the Scriptures) and the Holy Spirit only, do effectually reveal him unto us for our salvation.",
+    answer: "The light of nature in man - natural reason, the innate awareness of God, and our conscience - along with His works of creation, plainly declare that there is a God. Yet it is only through his Word, the Scriptures, and by the Holy Spirit, that He is effectually revealed to us for our salvation.",
     mainScripture: `“The heavens declare the glory of God, and the sky above proclaims his handiwork. Day to day pours out speech, and night to night reveals knowledge.” — Psalm 19:1-2`,
     otherScriptures: [
       { ref: "Romans 1:18-20", link: blbLink("Romans 1:18-20") },
       { ref: "1 Corinthians 1:21-24", link: blbLink("1 Corinthians 1:21-24") },
       { ref: "2 Timothy 3:15", link: blbLink("2 Timothy 3:15") }
     ],
-    explanation: "Natural knowledge (the conscience of man and the visible works of God) is evidence enough for us all to be accountable to honor and worship the Lord our God. Spiritual knowledge is possessed only by those whose natural blindness has been overcome by the Spirit of God (1 Cor 2:14-15).",
+    explanation: "Natural knowledge - the conscience of man and the visible works of God - is evidence enough for us all to be accountable to honor and worship the Lord our God. However, spiritual knowledge is revealed through the scriptures and possessed only by those whose natural blindness has been overcome by the Spirit of God (1 Cor 2:14-15).",
      expandedExplanation: [
       `The existence of God is evident through general revelation, where the innate innate reason and conscience within humanity and the majestic works of creation unmistakably proclaim his reality, power, and divine nature (Romans 1:19-20; Psalm 19:1-2). This natural knowledge, imprinted on every conscience, renders all people without excuse, as it stirs an awareness of a supreme being to whom we owe allegiance and worship (Acts 17:27-28). Yet, this revelation, while sufficient for accountability, falls short of imparting saving knowledge, as sin darkens the mind and suppresses the truth in unrighteousness (Romans 1:18; Ephesians 4:18).`,
       `True knowledge of God for salvation comes solely through special revelation: his Word and Spirit working effectually in the heart. The Scriptures, as the written testimony of God's self-disclosure, unveil his character, will, and redemptive plan, but apart from the illuminating work of the Holy Spirit, they remain veiled (1 Corinthians 2:9-10, 14; 2 Corinthians 3:14-18). The Spirit, as the divine agent of regeneration, opens blind eyes and renews the mind, enabling faith in the gospel (John 3:5-8; Titus 3:5). This effectual revelation centers on Christ, whom no one knows except as the Father reveals him through the Spirit (Matthew 11:27; 16:17), leading to a personal encounter with God that transforms the soul.`,
@@ -170,7 +170,7 @@ export const catechisms = [
   {
     "id": 8,
     "question": "What do the Scriptures mainly teach?",
-    "answer": "The scriptures are the written divine revelation of the story of God, whereby we learn about our creator, His purposes, His plans for His creation and His work of redemption.",
+    "answer": "The Scriptures are the written divine revelation of the story of God, through which we learn about our creator, His purposes, His plans for His creation, and His work of redemption.",
     "mainScripture": "“All scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness, that the man of God may be complete, equipped for every good work.” — 2 Timothy 3:16-17",
     "otherScriptures": [
       { "ref": "John 5:39", "link": blbLink("John 5:39") },
@@ -197,7 +197,7 @@ export const catechisms = [
       { "ref": "Romans 15:4", "link": blbLink("Romans 15:4") },
       { "ref": "1 Corinthians 2:13-16", "link": blbLink("1 Corinthians 2:13-16") }
     ],
-    "explanation": "“Heavenliness” refers to the fact that the teachings of Scripture are of such a nature that they cannot be explained by mere human resources. The “unity of its parts” refers to the way that the whole of scripture points to Christ. God also determined the word of Christ as an essential part of conversion and sanctification (Rom. 10:17).",
+    "explanation": "The Bible’s divine nature refers to the fact that the teachings of Scripture are of such a kind that they cannot be explained by mere human resources. The “unity of its parts” refers to the way that the whole of scripture points to Christ. God also ordained the word of Christ as an essential part of conversion and sanctification (Rom. 10:17).",
      expandedExplanation: [
       `The Bible attests to its own divine authority through intrinsic evidences that compel recognition of its heavenly origin. Foremost is the heavenliness of its doctrine, which transcends human wisdom, offering truths about God's holiness, human sinfulness, and the path to eternal life that no mere philosophy could conceive (Psalm 19:7-9). These teachings revive the soul, impart wisdom to the simple, rejoice the heart, and enlighten the eyes, demonstrating a purity and power that originate from the divine mind (1 Corinthians 2:13-16).`,
       `The unity of its parts further evidences its divine authorship, as the Scriptures, composed over millennia by diverse human writers, cohere in a singular narrative centered on God's redemptive work in Christ. From Genesis to Revelation, the Bible unfolds a consistent storyline of creation, fall, redemption, and restoration, with prophecies fulfilled, Christ foreshadowed, and promises kept, all pointing to Jesus as the Messiah (John 5:39; Acts 10:43). This remarkable harmony, amidst cultural and linguistic diversity, cannot be attributed to human contrivance but reflects the overseeing hand of the Holy Spirit (2 Peter 1:20-21).`,
@@ -350,14 +350,14 @@ export const catechisms = [
   {
     "id": 17,
     "question": "What special act of providence did God exercise towards man when he was first created?",
-    "answer": "When God created man, He made a covenant with him that he should live and enjoy all the benefits of creation, but that he would die if he forsook the obedience that comes from faith. God commanded him not to eat of the tree of the knowledge of good and evil, and thus forsake his child-like dependence upon God for all things.",
+    "answer": "When God created man, He made a covenant with him, promising life in fellowship with the Creator and the full enjoyment of creation as long as he remained in faithful, childlike obedience to God. God commanded him not to eat from the tree of the knowledge of good and evil, warning that he would surely die if he ate of the tree, forsaking his dependence upon God in all things.",
     "mainScripture": "“The Lord took the man and put him in the garden of Eden to work it and keep it. And the Lord God commanded the man saying, ‘You may surely eat of every tree of the garden, but of the tree of the knowledge of good and evil you shall not eat, for in the day that you eat of it you shall surely die’.” — Genesis 2:15-17",
     "otherScriptures": [
       { "ref": "Genesis 2:15-17", "link": blbLink("Genesis 2:15-17") },
       { "ref": "Galatians 3:12", "link": blbLink("Galatians 3:12") },
       { "ref": "Romans 5:12", "link": blbLink("Romans 5:12") }
     ],
-    "explanation": "The “knowledge of good and evil” is the ability to judge independently what is beneficial (good) and harmful (evil) for ourselves. What God is forbidding is that man should choose to be independent from God in his evaluation of things. He is commanding man to walk by faith in the wise and loving care of his heavenly Father.",
+    "explanation": "This is the covenant relationship God made with Adam. That they would walk in joyful fellowship, provided he continued in faithful obedience. The “knowledge of good and evil” is the ability to judge independently what is beneficial (good) and harmful (evil) for ourselves. What God forbid at the tree was that man should choose to be independent from God in his consideration of all things. He is commanding man to walk by faith in the wise and loving care of his heavenly Father.",
      expandedExplanation: [
       `In His providential care at creation, God established a covenantal relationship with humanity, embedding within it the promise of life and blessing contingent upon faithful obedience. This covenant, often termed the covenant of works, reflected God's sovereign authority and benevolent design, placing Adam in the Garden of Eden not merely as a habitat but as a realm where dependence on the Creator would yield abundant enjoyment of all creation's benefits (Genesis 2:15-17). The command regarding the tree of the knowledge of good and evil served as a test of faith, prohibiting autonomous judgment that severs trust in God's wisdom and provision, thereby underscoring humanity's creaturely status and the necessity of child-like reliance on the divine will.`,
       `This arrangement highlighted the law of God woven into the fabric of creation, where obedience flowing from faith would sustain life, while disobedience would incur death, introducing the principle that the law brings life to the righteous but condemnation to the transgressor (Galatians 3:12; Romans 5:12). It revealed God's holiness in demanding perfect conformity to His commands, yet also His grace in providing an environment conducive to flourishing under His lordship. Additional Scriptures affirm this dynamic, portraying sin's entrance as a rupture of this covenantal bond, leading to universal accountability and the shadow of mortality over all descendants (Romans 5:18-19).`,
@@ -497,7 +497,7 @@ export const catechisms = [
       { "ref": "Romans 5:12-21", "link": blbLink("Romans 5:12-21") },
       { "ref": "Ephesians 2:3", "link": blbLink("Ephesians 2:3") }
     ],
-    "explanation": "The doctrine of original sin teaches that although God created man upright and very good, all humanity inherits both the guilt and the corrupted nature resulting from Adam’s first sin in the garden, as he was, by God’s design, the root (or head) from which we all come.",
+    "explanation": "The doctrine of original sin teaches that although God created man upright and very good, all humanity inherits both the guilt and the corrupted nature resulting from Adam’s first sin in the garden, as he was, by God’s design, the root - or head - from which we all come.",
      expandedExplanation: [
       `The sin of Adam, as the covenantal head of humanity, implicated all his descendants in guilt and corruption, ensuring that every person inherits both the condemnation and the sinful nature resulting from that primal transgression. This doctrine of original sin affirms that Adam's act was not private but representative, as God ordained him as the federal representative of the race, so that in him all sinned (Romans 5:12; 1 Corinthians 15:22). Consequently, humanity fell collectively into a state of spiritual death, alienated from God and inclined toward evil from conception (Psalm 51:5; Ephesians 2:3).`,
       `This fall transmitted a polluted nature, where the image of God, though not eradicated, is marred, leading to total depravity—every faculty of the soul tainted by sin (Genesis 6:5; Jeremiah 17:9). Scripture illustrates this in the universal experience of death and sinfulness, as through one man's disobedience, many were made sinners (Romans 5:19). Yet, this underscores God's sovereignty in creation and redemption, for just as death came through Adam, life comes through Christ, the last Adam (1 Corinthians 15:45).`,
