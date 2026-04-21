@@ -589,8 +589,8 @@ export const catechisms = [
   },
   {
     "id": 29,
-    "question": "What are the outward means by which Christ communicates to us the benefits of redemption?",
-    "answer": "The outward means by which Christ communicates to us the benefits of His redemption are the study of His Word, His ordinances of Baptism and the Lord’s Supper and Prayer; all of which are made effectual to the elect for salvation.",
+    "question": "What are the outward means by which Christ communicates to us His redemption?",
+    "answer": "The outward means by which Christ communicates to us His redemption are the study of His Word, His ordinances of Baptism and the Lord’s Supper and Prayer; all of which are made effectual to the elect for salvation.",
     "mainScripture": "“So those who received his word were baptized, and there were added that day about three thousand souls. And they devoted themselves to the apostles’ teaching and the fellowship, to the breaking of bread and the prayers” — Acts 2:41-42",
     "otherScriptures": [
       { "ref": "Psalm 19:7", "link": blbLink("Psalm 19:7") },
@@ -598,7 +598,7 @@ export const catechisms = [
       { "ref": "1 Corinthians 12:13", "link": blbLink("1 Corinthians 12:13") },
       { "ref": "James 1:18", "link": blbLink("James 1:18") }
     ],
-    "explanation": "Christ communicates to us the benefits of redemption first through his word. Faith comes from hearing and hearing through the word of Christ (Rom 10:17). From there, his ordinances of Baptism and the Lord’s Supper, which are specially instituted by Christ, represent the outward signs of the new covenant made with the believer. Finally through prayer we express our dependence on, and confidence in our God.",
+    "explanation": "These means of grace are the external ways Christ uses to make the benefits of salvation real to His elect. Christ communicates to us first through his word. Faith comes from hearing and hearing through the word of Christ (Rom 10:17). From there, his ordinances of Baptism and the Lord’s Supper, which are specially instituted by Christ, represent the outward signs of the new covenant made with the believer. Finally through prayer we express our dependence on, and confidence in our God.",
      expandedExplanation: [
       `The outward means through which Christ communicates the benefits of His redemption to His people are gracious provisions ordained by God to convey spiritual realities in tangible ways, all empowered by the Holy Spirit for the salvation of the elect. These means include the study of the Word, which is the primary instrument for revealing God's truth and will, as it declares the gospel of Christ crucified and risen, awakening faith and nurturing growth in grace (Romans 10:17; 2 Timothy 3:16-17). Baptism serves as an outward sign of inward cleansing and union with Christ in His death and resurrection, marking entrance into the covenant community and signifying the washing away of sins through faith (Acts 2:38; Romans 6:3-4). The Lord’s Supper, likewise, is a visible proclamation of Christ’s atoning death, where believers partake of the bread and cup as symbols of His body and blood, fostering communion with Him and one another in remembrance of His sacrifice (1 Corinthians 11:23-26; Matthew 26:26-28). Prayer, as an act of dependence and communion with God, opens the heart to receive His promises, invoking the Spirit's help in applying redemption's fruits amid daily life (Philippians 4:6-7; James 5:16).`,
       `These means are not inherently efficacious but are made effectual by the sovereign work of the Holy Spirit, who applies them to the elect, those chosen in Christ before the foundation of the world (Ephesians 1:4). The Spirit illumines the Word to convict and convert, seals the ordinances to strengthen faith, and enlivens prayer to draw believers nearer to God.`,
